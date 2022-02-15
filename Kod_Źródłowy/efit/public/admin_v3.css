@@ -1,0 +1,274 @@
+@charset "UTF-8";
+
+li, ul, a
+{
+    list-style:none;
+    text-decoration-line:none;
+}
+
+#lewyPanel #uzytkownicy, #lewyPanel #konto, #lewyPanel #logowanie
+{
+    margin-top:5px;
+}
+
+body, html
+{
+    height:100%;
+}
+
+td:hover
+{
+  background-color:rgb(240, 240, 240); 
+}
+
+td
+{
+    border:1px solid black;
+    border-radius:5px 5px 5px 5px;
+    background-color:white;
+    text-align:center;
+}
+
+table
+{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+h1
+{
+    color:black;
+    animation:anim;
+    animation-duration:1s;
+    animation-iteration-count:100;
+}
+
+@keyframes anim
+{
+    0%
+    {
+        color:black;
+    }
+    50%
+    {
+        color:red;
+    }
+    100%
+    {
+        color:black;
+    }
+}
+
+h1
+{
+    text-align:center;
+}
+
+.cwiczenie
+{
+    border:1px solid black;
+    border-radius:5px 5px 5px 5px;
+
+    margin:10px;
+    width:513px;
+    height:320px;
+
+    background-color:white;
+}
+
+.tekst
+{
+    float:left;
+    text-align:center;
+}
+
+.film
+{
+    float:left;
+    margin-left:10px;
+}
+
+
+
+#opis
+{
+	padding:10px;	
+}
+
+h1, h2, h3, h4
+{
+	padding-left:5px;
+	padding-right:5px;
+}
+
+@keyframes intro
+{
+    0%
+    {
+        margin-top:30px;
+    }
+    100%
+    {
+        margin-top:5px;
+    }
+}
+
+.tytul
+{
+    font-weight:bold;
+}
+
+td .none, .none
+{
+	border:none;	
+}
+
+input[type=email], input[type=password], input[type=text]
+{
+	text-align:center;
+}
+
+form
+{
+	padding:10px;
+}
+
+td
+{
+	padding:5px;
+	border:0.5px solid red;
+	margin:5px;
+}
+
+.special
+{
+	border:0.5px solid blue;
+}
+
+.list li, .list
+{
+	list-style-type: circle;
+}
+
+body
+{
+    width:730px;
+    margin-left:auto;
+    margin-right:auto;
+
+     background-image:url('bck_gym.jpg');
+
+    height:100%;
+    background-position:center;
+    background-repeat:repeat;
+    background-size:cover;
+}
+
+#lewyPanel
+{
+    border:1px solid black;
+    border-radius:5px 5px 5px 5px;
+    float:left;
+    text-align:center;
+    padding:5px;
+
+    background-color:rgba(210,238,255, 0.829);
+
+    margin-top:5px;
+    width:200px;
+}
+
+#gornyPanel
+{
+    border:1px solid black;
+    border-radius:5px 5px 5px 5px;
+    width:755px;
+    text-align:center;
+    padding:5px;
+
+    background-color:rgba(240,248,255, 0.829);
+}
+
+#zawartosc
+{
+    border:1px solid black;
+    border-radius:5px 5px 5px 5px;
+    float:left;
+    margin-top:5px;
+    margin-left:5px;
+    width:fit-content;
+    background-color:white;
+}
+
+#wszystko
+{
+    border:1px solid black;
+    border-radius:5px 5px 5px 5px;
+
+    float:left;
+
+    padding:10px;
+    
+    background-color:rgba(230,230,250, 0.829);
+	box-shadow:2px 2px 2px 2px #00ff00;
+
+    margin-top:5px;
+
+    animation:intro;
+    animation-duration:2s;
+}
+
+.cwiczenie td
+{
+    border:none;
+}
+
+@media only screen and (max-width: 755px) {
+  
+#gornyPanel
+{
+    border:1px solid black;
+    border-radius:5px 5px 5px 5px;
+    width: auto;
+    text-align:center;
+    padding:5px;
+
+    background-color:rgba(240,248,255, 0.829);
+}
+
+iframe
+{
+    width:150px;
+    height:150px;
+}
+
+
+#zawartosc
+{
+    border:1px solid black;
+    border-radius:5px 5px 5px 5px;
+    float:left;
+}
+
+#wszystko
+{
+    border:1px solid black;
+    border-radius:5px 5px 5px 5px;
+
+    float:left;
+
+    padding:10px;
+    
+    background-color:rgba(230,230,250, 0.829);
+	box-shadow:2px 2px 2px 2px #00ff00;
+
+    margin-top:5px;
+
+    animation:intro;
+    animation-duration:2s;
+}
+
+}
+
+
+
